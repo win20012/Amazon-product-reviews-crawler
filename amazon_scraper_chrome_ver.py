@@ -10,8 +10,6 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
-""" need to do 1. get product url and id and store in dict """
-
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 # two things need to be specify, search term and product ID
